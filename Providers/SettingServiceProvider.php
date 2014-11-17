@@ -1,10 +1,10 @@
-<?php namespace Modules\Setting\Providers;
+<?php namespace Setting\Providers;
 
 use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\ServiceProvider;
-use Modules\Setting\Entities\Setting;
-use Modules\Setting\Repositories\Eloquent\EloquentSettingRepository;
-use Modules\Setting\Support\Settings;
+use Setting\Entities\Setting;
+use Setting\Repositories\Eloquent\EloquentSettingRepository;
+use Setting\Support\Settings;
 
 class SettingServiceProvider extends ServiceProvider {
 

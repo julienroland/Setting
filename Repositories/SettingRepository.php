@@ -1,6 +1,6 @@
-<?php namespace Modules\Setting\Repositories;
+<?php namespace Setting\Repositories;
 
-use Modules\Core\Repositories\BaseRepository;
+use Core\Repositories\BaseRepository;
 
 interface SettingRepository extends BaseRepository
 {

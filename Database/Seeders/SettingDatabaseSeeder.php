@@ -1,4 +1,4 @@
-<?php namespace Modules\Setting\Database\Seeders;
+<?php namespace \Setting\Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Database\Eloquent\Model;

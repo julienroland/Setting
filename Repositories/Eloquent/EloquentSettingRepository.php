@@ -1,8 +1,8 @@
-<?php namespace Modules\Setting\Repositories\Eloquent;
+<?php namespace Setting\Repositories\Eloquent;
 
 use Illuminate\Support\Facades\Config;
-use Modules\Core\Repositories\Eloquent\EloquentBaseRepository;
-use Modules\Setting\Repositories\SettingRepository;
+use Core\Repositories\Eloquent\EloquentBaseRepository;
+use Setting\Repositories\SettingRepository;
 
 class EloquentSettingRepository extends EloquentBaseRepository implements SettingRepository
 {

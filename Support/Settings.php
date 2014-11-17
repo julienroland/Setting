@@ -1,8 +1,8 @@
-<?php namespace Modules\Setting\Support;
+<?php namespace Setting\Support;
 
 use Illuminate\Contracts\Cache\Repository;
-use Modules\Core\Contracts\Setting;
-use Modules\Setting\Repositories\SettingRepository;
+use Core\Contracts\Setting;
+use Setting\Repositories\SettingRepository;
 
 class Settings implements Setting
 {
